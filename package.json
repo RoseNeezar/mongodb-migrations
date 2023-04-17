@@ -1,0 +1,21 @@
+{
+  "name": "y-1-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate-up": "tsx ./src/run_migration.ts",
+    "migrate-down": "tsx ./src/revert_migration.ts",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^9.3.4",
+    "mongoose": "^7.0.3",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}
